@@ -8,8 +8,8 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-use app\Models\Role;
-use app\Models\Publicaciones;
+use App\Models\Role;
+use App\Models\Publicaciones;
 
 class User extends Authenticatable
 {
@@ -28,6 +28,15 @@ class User extends Authenticatable
     {
         return $this->hasMany(Publicaciones::class);
     }
+
+
+    // Obtener el nombre completo del usuario
+    public function getFullName()
+    {
+        return "$this->name $this->lastname";
+    }
+    
+    
 
 
 
