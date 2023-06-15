@@ -7,6 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Relaciones de las entidades
+![image](https://github.com/BryanTnz/backendTesis/assets/66330281/c9e45751-6ab0-4cd4-9161-8c91b1587384)
+
+
 ## Login
 http://127.0.0.1:8000/api/login <br>
 {"email":"schimmel.micheal@example.org", "password":"secret" }
