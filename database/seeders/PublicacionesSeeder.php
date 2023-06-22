@@ -16,7 +16,7 @@ class PublicacionesSeeder extends Seeder
     public function run(): void
     {
         // https://laravel.com/docs/9.x/queries#retrieving-all-rows-from-a-table
-        $users_guards = User::where('role_id',1)->get();
+        $users_guards = User::where('role_id',2)->get();
         // dd($users_guards);
         // dd(count($users_guards));
 

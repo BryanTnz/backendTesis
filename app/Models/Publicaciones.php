@@ -19,6 +19,8 @@ public function user()
 }
 protected $fillable = [
     'path',
+    
+    
 ];
 
 }

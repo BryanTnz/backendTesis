@@ -15,6 +15,10 @@ class UserSeeder extends Seeder
      */
     public function run(): void
     {
+        
+        $rol_admin = Role::where('name', 'admin')->first();
+        User::factory()->for($rol_admin)->count(1)->create();
+
         $rol_admin = Role::where('name', 'especialista')->first();
         //dd($user_admin);
 
