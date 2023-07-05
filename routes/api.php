@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,4 +22,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 // Hacer uso del archivo auth.php
 require __DIR__ . '/auth.php';
 
-
+Route::post('/register', [RegisterController::class, 'register'])->name('register');
