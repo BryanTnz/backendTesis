@@ -35,7 +35,27 @@ http://127.0.0.1:8000/api/forgot-password<br>
 ![image](https://github.com/BryanTnz/backendTesis/assets/66330281/da84a439-df03-474a-95db-78761bd89615)
 ![image](https://github.com/BryanTnz/backendTesis/assets/66330281/6e980c22-2944-47ee-92f8-f2ee527df48e)
 
-ResetPassword
-![image](https://github.com/BryanTnz/backendTesis/assets/66330281/598f1923-dbf2-4fc7-9bfd-18b40af0da68)
+## ResetPassword
+http://127.0.0.1:8000/api/reset-password<br>
+Password: 10 caracteres, Mayusculas, minusculas, numeros, simbolos<br>
+{<br>
+    "token":"81cc4a32a0ec42cf07a37a5089e1643126c45042351b26433afd6193dd171915",<br>
+    "email":"Maria@gmail.com",<br>
+    "password":"Abc123456*",<br>
+    "password_confirmation":"Abc123456*"<br>
+}<br>
+![image](https://github.com/BryanTnz/backendTesis/assets/66330281/8e5e2915-6b33-447e-bf83-f2aa26462ab4)
+
+## UpdatedPassword
+![image](https://github.com/BryanTnz/backendTesis/assets/66330281/ee11ad6e-1bf2-4d8a-bf32-c7ba9be500e6)
+
+http://127.0.0.1:8000/api/update-password<br>
+Password: 10 caracteres, Mayusculas, minusculas, numeros, simbolos<br>
+{<br>
+    "password":"ABCabc123*",<br>
+    "password_confirmation":"ABCabc123*"<br>
+}<br>
+![image](https://github.com/BryanTnz/backendTesis/assets/66330281/b4a9368c-6f98-4af0-b75f-e37dbe7c282a)
+![image](https://github.com/BryanTnz/backendTesis/assets/66330281/26aaa907-9a6c-41ef-bdc1-bcce6b6d6bbd)
 
 
